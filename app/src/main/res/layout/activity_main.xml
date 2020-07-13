@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginStart="20dp">
+
+
+    <TextView
+        android:id="@+id/biking_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/downstairs_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+    <TextView
+        android:id="@+id/jogging_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+    <TextView
+        android:id="@+id/sitting_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+    <TextView
+        android:id="@+id/standing_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/upstairs_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/walking_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"/>
+
+</LinearLayout>
